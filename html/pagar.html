@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <script src="https://kit.fontawesome.com/2edf5860bb.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/pagar.css">
-    <title>Index</title>
+    <title>pagar</title>
 </head>
 <body>
     <div class="contenedor">
@@ -13,8 +16,8 @@
             <div class="logo"><img src="../img/logo quetzal.png" alt=""></div>
             <div class="iconos-usuarios">
                 <h3>nombre de usuario</h3>
-                <a href="">iniciar sesion</a>
-                <i class="fa-solid fa-user" ></i>
+                <a href="index.html" class="inicioSesion">Cerrar sesion</a>
+                <a href="vistaPerfil.html"><i class="fa-solid fa-user inicioSesion" ></i></a>
             </div>
         </header>
      
@@ -23,13 +26,13 @@
             <h4>ELEGISTE EL PLAN</h4>
             <section class="foto-descripcion">
                 <div class="contenedor-foto"><img src="../img/planMensualDibujo.jpg" alt=""></div> 
-                <div><p> con el plan mensual llevate la mejor musica controlando lo que gastas</p></div>
+                <div><p> ¡¡¡Con el plan mensual llevate la mejor musica controlando lo que gastas!!!</p></div>
             </section>
 
             <section class="formulaio-debajo">
                 <form action="#" method="post" class="formulario">
                     <article>
-                        <label for="tarjeta">tarjeta</label>
+                        <label for="tarjeta">TARJETA</label>
                         <input id="tarjeta" type="number" name="tarjeta" placeholder="Ingrese numero" min="0" max="200">
                     </article>
                    
@@ -38,16 +41,16 @@
                     </article>
                     
                     <article>
-                        <label for="cvc">cvc</label>
+                        <label for="cvc">CVC</label>
                         <input id="cvc" type="number" name="cvc" placeholder="Ingrese numero" min="0" max="200">
                     </article>
 
                     <article>
-                        <label for="nombreyapellido">nombre y apellido</label>
+                        <label for="nombreyapellido">NOMBRE Y APELLIDO</label>
                         <input id="nombreyapellido" type="text" name="nombreyapellido" placeholder="Ingrese su nombre y apellido" >
                     </article>
-                    <input type="submit" value="cancelar" formaction="index.html">
-                    <input type="submit" value="pagar">
+                    <input type="submit" value="cancelar" formaction="index.html" class="boton">
+                    <input type="submit" value="pagar" formaction="index.html" class="boton">
                 </form>
         
             
