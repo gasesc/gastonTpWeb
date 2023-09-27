@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script src="https://kit.fontawesome.com/2edf5860bb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/pagar.css">
+    <title>Index</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="logo"><img src="../img/logo quetzal.png" alt=""></div>
+            <div class="iconos-usuarios">
+                <h3>nombre de usuario</h3>
+                <a href="">iniciar sesion</a>
+                <i class="fa-solid fa-user" ></i>
+            </div>
+        </header>
+     
+        
+        <main class="galeria-section">
+            <h4>ELEGISTE EL PLAN</h4>
+            <section class="foto-descripcion">
+                <div class="contenedor-foto"><img src="../img/planMensualDibujo.jpg" alt=""></div> 
+                <div><p> con el plan mensual llevate la mejor musica controlando lo que gastas</p></div>
+            </section>
+
+            <section class="formulaio-debajo">
+                <form action="#" method="post" class="formulario">
+                    <article>
+                        <label for="tarjeta">tarjeta</label>
+                        <input id="tarjeta" type="number" name="tarjeta" placeholder="Ingrese numero" min="0" max="200">
+                    </article>
+                   
+                    <article><label for="fecha">VTO</label>
+                        <input id="fecha" type="date" name="fecha" >
+                    </article>
+                    
+                    <article>
+                        <label for="cvc">cvc</label>
+                        <input id="cvc" type="number" name="cvc" placeholder="Ingrese numero" min="0" max="200">
+                    </article>
+
+                    <article>
+                        <label for="nombreyapellido">nombre y apellido</label>
+                        <input id="nombreyapellido" type="text" name="nombreyapellido" placeholder="Ingrese su nombre y apellido" >
+                    </article>
+                    <input type="submit" value="cancelar" formaction="index.html">
+                    <input type="submit" value="pagar">
+                </form>
+        
+            
+        </main>
+        <footer><h3>Osmar Gaston Escobar</h3></footer>
+    </div>
+    
+</body>
+</html>
